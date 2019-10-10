@@ -9730,3 +9730,25 @@ header.masthead h1 {
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
+
+.fl-page-bar .fl-social-icons {
+    margin: 10px 0 5px 0;
+}
+.fl-page-bar .fl-social-icons i.fa {
+    font-size: 40px;
+    width: 60px !important;
+}
+
+/* Resize and reposition the Font Awesome social icons in the Nav Bottom header */
+.fl-page-header-primary .fl-social-icons .fa-stack  {
+    font-size: 30px;
+    width: 80px;
+}
+.fl-page-header-content .fl-social-icons {
+    margin-right: 20px !important;
+}
+
+/* Resize and reposition the Blogger social icon in the top bar */
+.fl-page-bar .fl-social-icons .fl-icon {
+    font-size: 50px;
+}
